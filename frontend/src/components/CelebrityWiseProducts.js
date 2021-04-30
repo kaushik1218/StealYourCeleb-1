@@ -94,6 +94,7 @@ const CelebrityProducts = ({ match }) => {
                         <img
                           className='d-block w-100'
                           src={image.url}
+                          
                           alt={celebrityDetails.name}
                         />
                       </Carousel.Item>

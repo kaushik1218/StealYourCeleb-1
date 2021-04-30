@@ -41,11 +41,11 @@ const Home = ({ match }) => {
     </div>
           <h1 id='products_heading'>All Celebrities</h1>
          
-          <section id='products' className='container mt-5'>
+          <section id='products' className='container mt-5 home-celeb-img'>
           
             <div className='row'>
               {celebrities.map((celebrity) => (
-                <Celebrity key={celebrity._id} celebrity={celebrity} col={3} />
+                <Celebrity key={celebrity._id} celebrity={celebrity} col={4} />
               ))}
             </div>
           </section>
